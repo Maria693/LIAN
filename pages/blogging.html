@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>gulp-scss-starter</title>
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+        <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+        <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+        <script src="https://kit.fontawesome.com/3e83a00890.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="../styles/main.css">
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<body>
+    <div class="main-page main-page-shadow">
+        <header>
+            <div class="wrap">
+                <div class="header">
+                    <a href="#" class="header__logo"></a>
+                    <ul class="header-list">
+                        <li class="header-list__item"><a href="../index.html" class="header-list__link header-list__link-active">Home</a></li> 
+                        <li class="header-list__item"><a href="about.html" class="header-list__link">About</a></li> 
+                        <li class="header-list__item"><a href="portfolio.html" class="header-list__link">Portfolio</a></li> 
+                        <li class="header-list__item"><a href="blogging.html" class="header-list__link">BLOG</a></li> 
+                        <li class="header-list__item"><a href="contact.html" class="header-list__link">Contact</a></li>
+                        <li class="header-list__item header-list__item-last"><a href="" class="header-list__link"><i class="fas fa-search"></i></a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="main-page-bg_blog">
+        <div class="wrap">
+            <div>
+                <h1 class="main-page-bg__title">News About Lian</h1>
+                <p class="main-page-bg_about__desc">Latest News & Insights</p>
+            </div>
+        </div>
+    </div>
+    <div class="wrap">
+		<div class="grid" data-masonry='{"itemSelector":".grid-item"}'>
+			<div class="grid-item grid-item-black-background grid-item-first grid-item-width1">
+				<div class="grid-item-flex">
+					<p class="grid-item__label">WordPress</p>
+					<h2 class="grid-item__title">I am a Blog Post Title</h2>
+					<span class="grid-item__span"><a href=""><i class="fas fa-user-alt"></i>by Jenn Pereira</a></span>
+					<p class="grid-item__desc">Phasellus et nisl tellus. Etiam facilisis     eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus  semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam     facilisis eu nisi scelerisque faucibus...</p>
+					<div class="social-flex">
+						<p class="grid-item__day"><i class="far fa-calendar"></i>on July 19, 2016 </p>
+					    <div>
+							<i class="fas fa-share-alt grid-item-pin"></i><i class="fas fa-heart grid-item-pin"></i>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="grid-item green grid-item-width1">
+                <img class="picture-hover" src="../img/photo-2(clock).png">
+                <div class="grid-item-flex">
+                    <h2 class="grid-item__title top">I am a Blog Post with an Awesome Image</h2>
+                     <span class="grid-item__span"><a href=""><i class="fas fa-user-alt"></i>by Jenn Pereira</a></span>
+                    <p class="grid-item__desc">Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris...</p>
+                    <div class="social-flex">
+                        <p class="grid-item__day"><i class="far fa-calendar"></i>on July 19, 2016 </p>
+                        <div>
+                            <i class="fas fa-share-alt grid-item-pin"></i><i class="fas fa-heart grid-item-pin"></i>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <div class="grid-item grid-item-width1 grid-item-input-block">
+                <input type="text" class="grid-item-input" placeholder="Search" >
+                <div class="grid-item__img">
+                    <i class="fas fa-search fa-search2 grid-item-pin"></i>
+                </div>
+            </div>
+            <div class="grid-item green grid-item-width1">
+                <h2 class="grid-item__title-two">Recent Posts</h2>
+                <div class="grid-item-flex grid-item-flex-next">
+                    <div class="input-blocks">
+                        <img src="../img/small-pic1.png" alt="">
+                        <div class="flex-text">
+                            <p>Lorem ipsum dolor sit amet, consec </p>
+                            <span class="grid-item__span grid-item__span-next">July 5, 2016</span>
+                        </div>
+                    </div>
+                    <div class="input-blocks">
+                        <img src="../img/small-pic2.png" alt="">
+                        <div class="flex-text">
+                            <p>Ut wisi enim ad minim veniam, quis</p>
+                            <span class="grid-item__span grid-item__span-next">July 17, 2016</span>
+                        </div>
+                    </div>
+                    <div class="input-blocks">
+                        <img src="../img/small-pic3.png" alt="">
+                        <div class="flex-text">
+                            <p>Aliquip ex ea commodo aliquam erat</p>
+                            <span class="grid-item__span grid-item__span-next">July 17, 2016</span>
+                        </div>
+                    </div>
+                    <div class="input-blocks">
+                        <img src="../img/small-pic4.png" alt="">
+                        <div class="flex-text">
+                            <p>Ut wisi enim ad minim veniam, quis</p>
+                            <span class="grid-item__span grid-item__span-next">July 17, 2016</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item green grid-item-width1">
+                <img src="../img/photo-1.png">
+                <div class="grid-item-flex">
+                  <h2 class="grid-item__title top">I am a Blog Post with an Awesome Image</h2>
+                  <span class="grid-item__span"><a href=""><i class="fas fa-user-alt"></i>by Jenn Pereira</a></span>
+                  <p class="grid-item__desc">Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris...</p>
+                  <p class="grid-item__day"><i class="far fa-calendar"></i>on July 19, 2016 </p>
+                </div>
+            </div>
+            <div class="grid-item grid-item-popularTegs grid-item-tegs grid-item-width1">
+                <h2 class="grid-item__title-two">Popular tags</h2>
+                <div class="grid-item-flex grid-item-flex-next grid-item-tegs-proff-border">
+                  <p class="profession">construction</p>
+                  <p class="profession">engineering</p>
+                  <p class="profession">architecture</p>
+                  <p class="profession margin">structural design</p>
+                  <p class="profession margin">civil engineer</p>
+                  <p class="profession margin">industrial</p>
+                  <p class="profession margin">management</p>
+                  <p class="profession margin">mechanical</p>
+                </div>
+            </div>
+            <div class="grid-item grid-item-red1  grid-item-width1">
+                <img src="../img/video-blog.png">
+            </div>
+            <div class="grid-item popularTegs width1">
+                <h2 class="grid-item__title-two">Instagram</h2>
+                <div class="grid-item-flex grid-item-flex-next proff-border">
+                  <img src="../img/mini-pic1.png">
+                  <img src="../img/mini-pic2.png">
+                  <img src="../img/mini-pic3.png">
+                  <img src="../img/mini-pic4.png">
+                  <img src="../img/mini-pic5.png">
+                  <img src="../img/mini-pic6.png">
+                  <img src="../img/mini-pic7.png">
+                  <img src="../img/mini-pic8.png">
+                  <img src="../img/mini-pic9.png">
+                </div>
+            </div>   
+            <div class="grid-item green width1">
+                <img src="../img/match-blog.png">
+                <div class="grid-item-flex">
+                  <h2 class="grid-item__title top">I am a Blog Post with an Awesome Image</h2>
+                  <span class="grid-item__span"><a href=""><i class="fas fa-user-alt"></i>by Jenn Pereira</a></span>
+                  <p class="grid-item__desc">Proin semper suscipit magna, nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris...</p>
+                  <div class="social-flex">
+                    <p class="grid-item__day"><i class="far fa-calendar"></i>on July 19, 2016 </p>
+                    <div>
+                        <i class="fas fa-share-alt grid-item-pin"></i><i class="fas fa-heart grid-item-pin"></i>
+                    </div>
+                </div>
+                </div>
+            </div> 
+            <div class="grid-item  first width1 grid-item-black-background">
+                <div class="grid-item-flex">
+                    <p class="grid-item__label">Image  Hover</p>
+                    <h2 class="grid-item__title">I am a Blog Post Title</h2>
+                    <span class="grid-item__span"><a href=""><i class="fas fa-user-alt"></i>by Jenn Pereira</a></span>
+                    <p class="grid-item__desc">Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, nec imperdiet lacus semper...</p>
+                    <div class="social-flex">
+                        <p class="grid-item__day"><i class="far fa-calendar"></i>on July 19, 2016 </p>
+                        <div>
+                            <i class="fas fa-share-alt grid-item-pin"></i><i class="fas fa-heart grid-item-pin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="masonry-grid__btn grid__btn">Load More</button>
+    <div class="main-page">
+        <div class="footer">
+            <div class="footer__logo"></div>
+            <hr>
+            <div class="footer-social">
+            <ul class="footer-social__list">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-google"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            </div>  
+            <hr>
+            <p class="footer__text">© 2016 <span>Mulitix Theme</span> by ThemeForces. All Rights Reserved.</p>
+        </div>
+    </div>   
